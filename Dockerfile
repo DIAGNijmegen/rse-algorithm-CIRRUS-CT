@@ -1,5 +1,5 @@
 # Use the official Alpine base image
-FROM alpine:latest
+FROM public.ecr.aws/docker/library/alpine:edge
 
 # Install necessary packages # For usermod command
 RUN apk add --no-cache \
