@@ -1,0 +1,2 @@
+*.mha filter=lfs diff=lfs merge=lfs -text
+*.sh text=lf eol=lf
